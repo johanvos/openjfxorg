@@ -68,10 +68,10 @@ request. Note that squashing at the end of the review process should
 also not be done, that can be done when the pull request is [integrated
 via GitHub](https://github.com/blog/2141-squash-your-commits).
 
-Contributing to the Elasticsearch codebase
+Contributing to the OpenJFX codebase
 ------------------------------------------
 
-JDK 9 is required to build OopenJFX. You must have a JDK 9 installation
+JDK 9 is required to build OpenJFX. You must have a JDK 9 installation
 with the environment variable `JAVA_HOME` referencing the path to Java home for
 your JDK 9 installation. By default, tests use the same runtime as `JAVA_HOME`.
 However, since OpenJFX, supports JDK 8 the build supports compiling with

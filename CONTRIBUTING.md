@@ -15,7 +15,7 @@ Provide as much information as you can. The easier it is for us to recreate your
 Feature requests
 ----------------
 
-If you find yourself wishing for a feature that doesn't exist in OpneJFX, you are probably not alone. There are bound to be others out there with similar needs. Many of the features that OpenJFX has today have been added because our users saw the need.
+If you find yourself wishing for a feature that doesn't exist in OpenJFX, you are probably not alone. There are bound to be others out there with similar needs. Many of the features that OpenJFX has today have been added because our users saw the need.
 Open an issue on our [issues list](https://bugs.openjdk.java.net) on JBS which describes the feature you would like to see, why you need it, and how it should work.
 
 Contributing code and documentation changes
@@ -45,7 +45,7 @@ Once your changes and tests are ready to submit for review:
 
 2. Sign the Contributor License Agreement 
 
-    Please make sure you have signed our [Contributor License Agreement] ((http://www.oracle.com/technetwork/community/oca-486395.html)) . We are not asking you to assign copyright to us, but to give us the right to distribute your code without restriction. We ask this of all contributors in order to assure our users of the origin and continuing existence of the code. You only need to sign the CLA once.
+    Ultimately, the goal is to send accepted Pull Requests upstream to the OpenJFX repository hosted at Oracle infrastructure. Therefore, please make sure you have signed the [Oracle Contributor Agreement] (http://www.oracle.com/technetwork/community/oca-486395.html) . We are not asking you to assign copyright to us, but to give us the right to distribute your code without restriction. We ask this of all contributors in order to assure our users of the origin and continuing existence of the code. You only need to sign the CLA once.
 
 3. Rebase your changes
 

@@ -6,7 +6,7 @@ OpenJFX is an open source project and we love to receive contributions from our 
 Bug reports
 -----------
 
-If you think you have found a bug in OpenJFX, first make sure that you are testing against the latest version - your issue may already have been fixed. If not, search our [issues list](https://bugs.openjdk.java.net) on Java Bug System (JBS) in case a similar issue has already been opened.
+If you think you have found a bug in OpenJFX, first make sure that you are testing against the latest version - your issue may already have been fixed. If not, search our [issues list](https://bugs.openjdk.java.net) on Java Bug System (JBS) in case a similar issue has already been opened. More inormation on where and how to report a bug can be found at  http://bugreport.java.com/
 
 It is very helpful if you can prepare a reproduction of the bug. In other words, provide a small test case which we can run to confirm your bug. It makes it easier to find the problem and to fix it.
 
@@ -45,7 +45,7 @@ Once your changes and tests are ready to submit for review:
 
 2. Sign the Contributor License Agreement 
 
-    Ultimately, the goal is to send accepted Pull Requests upstream to the OpenJFX repository hosted at Oracle infrastructure. Therefore, please make sure you have signed the [Oracle Contributor Agreement] (http://www.oracle.com/technetwork/community/oca-486395.html) . We are not asking you to assign copyright to us, but to give us the right to distribute your code without restriction. We ask this of all contributors in order to assure our users of the origin and continuing existence of the code. You only need to sign the CLA once.
+    Ultimately, the goal is to send accepted Pull Requests upstream to the OpenJFX repository hosted at Oracle infrastructure. Therefore, please make sure you have signed the [Oracle Contributor Agreement] (http://www.oracle.com/technetwork/community/oca-486395.html) . We are not asking you to give up your copyright, but to give us the right to distribute your code without restriction. We ask this of all contributors in order to assure our users of the origin and continuing existence of the code. You only need to sign the OCA once.
 
 3. Rebase your changes
 
@@ -53,9 +53,9 @@ Once your changes and tests are ready to submit for review:
 
 4. Submit a pull request
 
-    Push your local changes to your forked copy of the repository and [submit a pull request](https://help.github.com/articles/using-pull-requests). In the pull request, choose a title which sums up the changes that you have made, and in the body provide more details about what your changes do. Also refer to JSB issue where discussion has taken place.
+    Push your local changes to your forked copy of the repository and [submit a pull request](https://help.github.com/articles/using-pull-requests). In the pull request, choose a title which sums up the changes that you have made, and in the body provide more details about what your changes do. The title *should include a JBS Bug ID*, which will make it easier for reviwers to cross-refrence your pull requests with JBS.
 
-Then sit back and wait. There will probably be discussion about the pull request and, if any changes are needed, we would love to work with you to get your pull request merged into Elasticsearch.
+Then sit back and wait. There will probably be discussion about the pull request and, if any changes are needed, we would love to work with you to get your pull request merged into OpenJFX.
 
 Please adhere to the general guideline that you should never force push
 to a publicly shared branch. Once you have opened your pull request, you
@@ -71,16 +71,10 @@ via GitHub](https://github.com/blog/2141-squash-your-commits).
 Contributing to the OpenJFX codebase
 ------------------------------------------
 
-JDK 9 is required to build OpenJFX. You must have a JDK 9 installation
+Minimum JDK 9 is required to build OpenJFX. You must have a JDK 9 installation
 with the environment variable `JAVA_HOME` referencing the path to Java home for
 your JDK 9 installation. By default, tests use the same runtime as `JAVA_HOME`.
-However, since OpenJFX, supports JDK 8 the build supports compiling with
-JDK 9 and testing on a JDK 8 runtime; to do this, set `RUNTIME_JAVA_HOME`
-pointing to the Java home of a JDK 8 installation. Note that this mechanism can
-be used to test against other JDKs as well, this is not only limited to JDK 8.
-
-OpenJFX uses the Gradle wrapper for its build. You can execute Gradle
-using the wrapper via the `gradlew` script in the root of the repository.
+Currently OpenJFX builds are running on JDK 9 and JDK 10.
 
 We support development in any major Java IDE (Eclipse,IntelliJ, Netbeans). IDEs can automatically configure projects based on Gradle setup.
 
@@ -93,9 +87,13 @@ Please follow these formatting guidelines:
 * Wildcard imports (`import foo.bar.baz.*`) are forbidden and may cause the build to fail. Please attempt to tame your IDE so it doesn't make them and please send a PR against this document with instructions for your IDE if it doesn't contain them.
 * Don't worry too much about import order. Try not to change it but don't worry about fighting your IDE to stop it from doing so.
 
-Before submitting your changes, run the test suite to make sure that nothing is broken, with:
+
+OpenJFX uses the Gradle for its build. Before submitting your changes, run the test suite to make sure that nothing is broken, with:
 
 ```sh
-./gradlew check
+gradle all test
 ```
+
+Even more documentaton on OpenJFX projects and its build system can be found at 
+https://wiki.openjdk.java.net/display/OpenJFX/
 

@@ -6,7 +6,7 @@ OpenJFX is an open source project and we love to receive contributions from our 
 Bug reports
 -----------
 
-If you think you have found a bug in OpenJFX, first make sure that you are testing against the latest version - your issue may already have been fixed. If not, search our [issues list](https://bugs.openjdk.java.net) on Java Bug System (JBS) in case a similar issue has already been opened. More inormation on where and how to report a bug can be found at  http://bugreport.java.com/
+If you think you have found a bug in OpenJFX, first make sure that you are testing against the latest version - your issue may already have been fixed. If not, search our [issues list](https://bugs.openjdk.java.net) on Java Bug System (JBS) in case a similar issue has already been opened. More information on where and how to report a bug can be found at  http://bugreport.java.com/
 
 It is very helpful if you can prepare a reproduction of the bug. In other words, provide a small test case which we can run to confirm your bug. It makes it easier to find the problem and to fix it.
 
@@ -53,7 +53,7 @@ Once your changes and tests are ready to submit for review:
 
 4. Submit a pull request
 
-    Push your local changes to your forked copy of the repository and [submit a pull request](https://help.github.com/articles/using-pull-requests). In the pull request, choose a title which sums up the changes that you have made, and in the body provide more details about what your changes do. The title *should include a JBS Bug ID*, which will make it easier for reviwers to cross-refrence your pull requests with JBS.
+    Push your local changes to your forked copy of the repository and [submit a pull request](https://help.github.com/articles/using-pull-requests). In the pull request, choose a title which sums up the changes that you have made, and in the body provide more details about what your changes do. The title *should include a JBS Bug ID*, which will make it easier for reveiwers to cross-refrence your pull requests with JBS.
 
 Then sit back and wait. There will probably be discussion about the pull request and, if any changes are needed, we would love to work with you to get your pull request merged into OpenJFX.
 

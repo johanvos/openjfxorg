@@ -45,7 +45,7 @@ Once your changes and tests are ready to submit for review:
 
 2. Sign the Contributor License Agreement 
 
-    Ultimately, the goal is to send accepted Pull Requests upstream to the OpenJFX repository hosted at Oracle infrastructure. Therefore, please make sure you have signed the [Oracle Contributor Agreement] (http://www.oracle.com/technetwork/community/oca-486395.html) . We are not asking you to give up your copyright, but to give us the right to distribute your code without restriction. We ask this of all contributors in order to assure our users of the origin and continuing existence of the code. You only need to sign the OCA once.
+    Ultimately, the goal is to send accepted Pull Requests upstream to the OpenJFX repository hosted at Oracle infrastructure. Therefore, please make sure you have signed the [Oracle Contributor Agreement](http://www.oracle.com/technetwork/community/oca-486395.html) . We are not asking you to give up your copyright, but to give us the right to distribute your code without restriction. We ask this of all contributors in order to assure our users of the origin and continuing existence of the code. You only need to sign the OCA once.
 
 3. Rebase your changes
 
